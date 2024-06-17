@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIANSTOCKNEWZ</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background: #004d40;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: 0 auto 20px;
+            z-index: 1;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            z-index: 1;
+            position: relative;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            z-index: 1;
+            position: relative;
+        }
+        .welcome-message {
+            margin: 20px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            z-index: 1;
+            position: relative;
+        }
+        .header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('jay jay.jpg') no-repeat center center;
+            background-size: contain;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00796b;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            border-bottom: 2px solid #00796b;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .about-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .about-content ul li {
+            margin-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .feed-box {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .feed-box textarea {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .feed-box button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feed-box button:hover {
+            background-color: #004d40;
+        }
+        .subscribe-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .subscribe-button:hover {
+            background-color: #004d40;
+        }
+        footer {
+            background-color: #004d40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <img src="image.png" alt="Profile Picture">
+        <h1>Indian Stock Market F&O And Forex</h1>
+        <p>@IndianStockNewz</p>
+        <div class="welcome-message">Welcome to INDIANSTOCKNEWZ Projects</div>
+    </header>
+    <nav>
+        <a href="#feed">Feed</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="feed">
+        <h2>Feed</h2>
+        <p>Latest updates and news from the Indian stock market. Stay informed with our real-time feed.</p>
+        <div class="feed-box">
+            <textarea placeholder="Post your updates here..."></textarea>
+            <button type="button">Post</button>
+        </div>
+        <div class="feed-content">
+            <!-- Add your feed content here -->
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Buy/Sell Signals</h3>
+            <p>We provide timely buy and sell signals to help you make informed trading decisions in the stock market.</p>
+            <a href="#subscribe" class="subscribe-button">Subscribe for Premium</a>
+        </div>
+        <div class="project">
+            <h3>TradingView Indicator Selling</h3>
+            <p>Our custom TradingView indicators are available for purchase to give you an edge in technical analysis.</p>
+            <a href="#subscribe" class="subscribe-button">Subscribe for Premium</a>
+        </div>
+        <div class="project">
+            <h3>Forex Buy/Sell Signals</h3>
+            <p>Get precise forex buy and sell signals to navigate the foreign exchange market effectively.</p>
+            <a href="#subscribe" class="subscribe-button">Subscribe for Premium</a>
+        </div>
+        <div class="project">
+            <h3>XAUUSD Pair Buy/Sell Signals</h3>
+            <p>Receive specific buy and sell signals for trading the XAUUSD (Gold/US Dollar) pair to maximize your profits.</p>
+            <a href="#subscribe" class="subscribe-button">Subscribe for Premium</a>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <div class="about-content">
+            <p>Welcome to INDIANSTOCKNEWZ! We are dedicated to providing comprehensive coverage of the Indian stock market, offering valuable insights and updates to help you make informed investment decisions.</p>
+            <p>Our focus areas include:</p>
+            <ul>
+                <li>Equity: Stay updated with the latest trends and analysis in the equity market.</li>
+                <li>F&O: Get timely and accurate information on futures and options trading.</li>
+                <li>Currency: Navigate the complexities of the currency market with our expert guidance.</li>
+            </ul>
+            <p>We also offer exclusive buy and sell signals, custom TradingView indicators, and specific signals for trading the XAUUSD (Gold/US Dollar) pair. Join us to enhance your trading strategies and achieve your financial goals.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Follow us on our X channel: <a href="https://x.com/IndianStockNewz" target="_blank">@IndianStockNewz</a></p>
+        <p>Join our Telegram channel: <a href="https://t.me/indianStockNewz" target="_blank">t.me/indianStockNewz</a></p>
+        <p>Follow us on Frontpage: <a href="https://front.page/t/B1TfgDaBC" target="_blank">@jaygilitwala</a></p>
+        <p>For inquiries, please contact us at <a href="mailto:info@indianstocknewz.com">info@indianstocknewz.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 INDIANSTOCKNEWZ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
