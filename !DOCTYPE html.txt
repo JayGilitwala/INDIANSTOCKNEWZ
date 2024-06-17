@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIANSTOCKNEWZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        section#about {
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        section#projects,
+        section#contact {
+            background-color: #f8f9fa;
+        }
+        section h2 {
+            border-bottom: 2px solid #495057;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="Profile Picture">
+        <h1>Indian Stock Market F&O And Forex</h1>
+        <p>@IndianStockNewz</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About</h2>
+        <p>We post technical analysis and breakout call and it's only for education purpose. Any loss or profit is not our responsibility.</p>
+        <ul>
+            <li>Equity</li>
+            <li>F&O</li>
+            <li>Currency</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out our latest projects and reports on the Indian stock market. We provide in-depth analysis and insights to help you navigate the market effectively.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Follow us on our X channel: <a href="https://twitter.com/IndianStockNewz" target="_blank">@IndianStockNewz</a></p>
+        <p>For inquiries, please contact us at <a href="mailto:info@indianstocknewz.com">info@indianstocknewz.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 INDIANSTOCKNEWZ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
